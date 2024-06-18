@@ -1,0 +1,123 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft Brasil</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #8CBB85;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  header {
+    background: #333333;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FFA500 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header ul {
+    padding: 0;
+    list-style: none;
+  }
+  header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Minecraft Brasil</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="container">
+  <section id="main">
+    <h2>Bem-vindo ao site Minecraft Brasil!</h2>
+    <p>Aqui você encontrará tudo sobre o mundo de Minecraft.</p>
+  </section>
+
+  <footer>
+    <p>©2024 Minecraft Brasil. Todos os direitos reservados.</p>
+  </footer>
+</div>
+
+</body>
+</html>
+
+CSS
+
+body {
+  background-color: #7B7D7D;
+  font-family: 'Press Start 2P', cursive; /* Esta é uma fonte pixelada que se assemelha ao texto em Minecraft */
+}
+
+header {
+  background: #4A766E;
+}
+
+header h1 {
+  text-shadow: 3px 3px 0px #3B3B3B;
+}
+
+section#main {
+  background-color: #A7A9AC;
+  border: 1px solid #3B3B3B;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Adiciona um pouco de espaço entre os ícones de navegação e melhora a visibilidade */
+header ul {
+  margin-top: 10px;
+}
+
+header li {
+  margin-right: 5px;
+}
+
+/* Estilos para links para imitar botões do jogo */
+header a {
+  background-color: #8F7748;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header a:hover {
+  background-color: #A88C65;
+}
